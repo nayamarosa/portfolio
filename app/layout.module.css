@@ -1,0 +1,80 @@
+.layout {
+    display: flex;
+    height: 100vh;
+}
+
+.layoutMain {
+    width: 70%;
+    padding: 24px;
+}
+
+.layoutNav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.layoutNavList {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.layoutNavListItem {
+    flex: 1;
+}
+
+.layoutNavListItemLink {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layoutNavListText {
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-medium);
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.devColor {
+    background-color: var(--development);
+    transition: filter 0.3s ease;
+}
+
+.devColor:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.designColor {
+    background-color: var(--design);
+    transition: filter 0.3s ease;
+}
+
+.designColor:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.contactColor {
+    background-color: var(--contact);
+    transition: filter 0.3s ease;
+}
+
+.contactColor:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.homeColor {
+    background-color: var(--background);
+    transition: filter 0.3s ease;
+}
+
+.homeColor:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
