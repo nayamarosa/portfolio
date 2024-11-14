@@ -1,0 +1,69 @@
+.hide {
+    display: none;
+}
+
+.layoutNav {
+    width: 10%;
+    height: 100%;
+}
+
+.layoutNavList {
+    width: 100%;
+    height: 100%;
+}
+
+.layoutNavListItem {
+    height: calc(100vh / 3);
+}
+
+.layoutNavListItemLink {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.layoutNavListText {
+    font-weight: var(--font-weight-bold);
+}
+
+.home {
+    background-color: var(--background);
+    transition: filter 0.3s ease;
+}
+
+.home:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.development {
+    background-color: var(--development);
+    transition: filter 0.3s ease;
+}
+
+.development:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.design {
+    background-color: var(--design);
+    transition: filter 0.3s ease;
+}
+
+.design:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
+
+.contact {
+    background-color: var(--contact);
+    transition: filter 0.3s ease;
+}
+
+.contact:hover {
+    filter: brightness(90%);
+    color: var(--text);
+}
