@@ -1,0 +1,28 @@
+.masonryGaleryHome {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.masonryGalery {
+  padding: 24px 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.masonryGaleryList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.masonryGaleryListItem {
+  
+}
+
+.masonryGaleryListItem img  {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
