@@ -1,0 +1,76 @@
+.carouselList {
+    padding: 24px 0;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.carouselListItem {
+}
+
+.image {
+    border-radius: 16px 16px 0 0;
+}
+
+.info {
+    padding: 0 0 16px;
+    border: 2px solid var(--development);
+    border-radius: 0 0 16px 16px;
+}
+
+.infoDevelopment {
+    border: 2px solid var(--development);
+}
+
+.infoDesign {
+    border: 2px solid var(--design);
+}
+
+.title {
+    padding: 4px 12px;
+    font-size: var(--font-size-large);
+    font-weight: var(--font-weight-bold);
+}
+
+.titleDevelopment {
+    background-color: var(--development);
+}
+
+.titleDesign {
+    background-color: var(--design);
+}
+
+.description {
+    margin-top: 12px;
+    padding: 0 12px;
+}
+
+.subtitle {
+    margin-top: 12px;
+    padding: 0 12px;
+    font-size: var(--font-size-mini);
+}
+
+.tech {
+    margin-top: 8px;
+    padding: 0 12px;
+    display: flex;
+    font-size: var(--font-size-mini);
+}
+
+.techGroup {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.links {
+    margin-top: 8px;
+    padding: 0 12px;
+    display: flex;
+}
+
+.links a {
+    margin: 0 8px;
+}
